@@ -1,3 +1,13 @@
+# Resolve the problem!!
+import string
+
+SYMBOLS = list('!"#$%&\'()*+,-./:;?@[]^_`{|}~')
+
+
+def generate_password():
+    # Start coding here
+
+
 def validate(password):
 
     if len(password) >= 8 and len(password) <= 16:
