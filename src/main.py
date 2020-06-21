@@ -29,3 +29,15 @@ def validate(password):
         if has_symbols and has_numbers and has_lowercase_letters and has_uppercase_letters:
             return True
     return False
+
+
+def run():
+    password = generate_password()
+    if validate(password):
+        print('Secure Password')
+    else:
+        print('Insecure Password')
+
+
+if __name__ == '__main__':
+    run()
